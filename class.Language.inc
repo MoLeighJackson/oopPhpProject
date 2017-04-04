@@ -2,7 +2,7 @@
 <?php
 class Language {
   // language properties
-  public $country_name;
+  public $language_name;
   public $helloworld_text;
 
 //method
@@ -11,13 +11,12 @@ class Language {
     $output = '';
 
     //name of country
-    $output .= $this->country_name;
-    return $output;
-
+    $output .= $this->language_name;
+    $output .= '<br>';
     // hello world text
-    $output .= '<br/>';
     $output .= $this->helloworld_text;
     return $output;
+
   }
 }
  ?>
