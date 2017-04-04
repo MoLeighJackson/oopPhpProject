@@ -10,7 +10,7 @@ class Language {
   function display() {
     $output = '';
 
-    //name of country
+    //name of language
     $output .= $this->language_name;
     $output .= '<br>';
     // hello world text
